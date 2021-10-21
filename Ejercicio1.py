@@ -1,6 +1,7 @@
 import random
 import string
 
+
 class Persona:
 
     __DNI = None
@@ -17,19 +18,6 @@ class Persona:
         self.__altura = altura
         self.__nombre = nombre
         self.__edad = edad
-
-    def introducirElementos(self):
-
-        print("Introduzca su nombre:")
-        self.__nombre=input()
-        print("Introduzca su DNI")
-        self.__DNI=input()
-        print("Introduzca su peso kg")
-        self.__peso=input()
-        print("Introduzca su altura en metros")
-        self.__altura = input()
-        print("Introduzca su edad")
-        self.__edad = input()
 
     def calcularIMC(self):
 
